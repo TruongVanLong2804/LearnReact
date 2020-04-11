@@ -1,0 +1,105 @@
+html,body,div,span,h1,h2,h3,h4,h5,h6,
+
+p,a,font,img,b,u,i,ol,ul,li,fieldset,form {
+
+margin: 0;
+
+padding: 0;
+
+border: 0;
+
+outline: 0;
+
+vertical-align: baseline;
+
+}
+.clr{
+
+clear:both;
+
+}
+#header {
+    text-align: center;
+    background-color: #2E2E2E;
+    width: 100%;
+    height: 70px;
+    font-size: 21px;
+}
+
+a.list {
+    margin-left: 40px;
+    color: wheat;
+    text-decoration: unset;
+}
+a.list:hover{
+	color: red;
+}
+.header_list {
+    padding-top: 20px;
+}
+#content {
+    width: 100%;
+    height: 630px;
+}
+p.tieude {
+    text-align: center;
+    font-size: 39px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+img.img {
+    margin-left: 100px;
+    margin-top: 35px;
+    float: left;
+}
+h5.tt {
+    font-size: 22px;
+    padding-top: 45px;
+    color: #424242;
+}
+.thongtin {
+    margin-top: 90px;
+    margin-left: 580px;
+    text-align: center;
+}
+button.btn {
+    margin-top: 75px;
+    width: 260px;
+    height: 38px;
+    font-weight: bold;
+    font-size: 17px;
+    background: #FF4000;
+}
+button.btn a {
+    text-decoration: unset;
+    color: white;
+}
+button.btn a:hover {
+	color: black;
+}
+#footer {
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    background-color: #0A2229;
+}
+h5.cuoi {
+    font-size: 21px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    color: wheat;
+}
+
+.cung {
+    border: 2px solid white;
+    padding: 8px 35px;
+    border-radius: 5px;
+    background: #FF8000;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: unset;
+}
+.cc a:hover {
+    background-color: red;
+}
