@@ -1,0 +1,199 @@
+html,body,div,span,h1,h2,h3,h4,h5,h6,
+
+p,a,font,img,b,u,i,ol,ul,li,fieldset,form {
+
+margin: 0;
+
+padding: 0;
+
+border: 0;
+
+outline: 0;
+
+vertical-align: baseline;
+
+}
+
+ol,ul {list-style: none;}
+
+a {
+
+text-decoration: none;
+
+}
+
+a img {
+
+border: none;
+
+}
+
+img {
+
+vertical-align: center;
+
+}
+
+:focus{outline;}
+
+.undderline{
+
+text-decoration:underline;
+
+}
+
+.uppercase {
+
+text-transform: uppercase;
+
+}
+
+.bold {
+
+font-weight: bold;
+
+}
+
+.clr{
+
+clear:both;
+
+}
+#wrapper_header{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color: red;
+}
+.logo{
+	float: left;
+	margin-left: 15px;
+    margin-top: 35px;
+}
+.Home{
+	float: left;
+	margin-right: 35px;
+}
+.Home a:hover{
+	color: black;
+}
+.About{
+	float: left;
+	margin-right: 35px;
+}
+.About a:hover{
+	color: black;
+}
+.Survices{
+	float: left;
+	margin-right: 35px;
+}
+.Survices a:hover{
+	color: black;
+}
+.Mywork{
+	float: left;
+	margin-right: 35px;
+}
+.Mywork a:hover{
+	color: black;
+}
+.Contact{
+	float: left;
+
+}
+.Contact a:hover{
+	color: black;
+}
+.danhmuc{
+	margin-left: 50%;
+    font-size: 25px;
+    margin-top: 30px;
+}
+#wrapper_content{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 534px;
+	float: left;
+	background-image: url(../Baitap/ndugu.png);
+}
+.h1 {
+    margin-top: 15%;
+    font-size: 60px;
+    color: white;
+}
+.h2 {
+    margin-top: 30px;
+    color: blue;
+    font-size: 32px;
+}
+#header{
+	text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+#content{
+	width: 90%;
+	height: 575px;
+	background: white;
+	margin-left: 65px;
+}
+.first{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+}
+p.list {
+    float: left;
+    margin-right: 40px;
+    font-size: 20px;
+}
+.text {
+    margin-left: 500px;
+    margin-top: 20px;
+}
+}
+.clr{
+
+clear:both;
+
+}
+input.khung {
+    width: 245px;
+    height: 25px;
+}
+input.khung[type="number"] {
+    margin-left: 15px;
+}
+.text1 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+p.list1 {
+    float: left;
+    width: 32%;
+    margin-left: 165px;
+    text-align: end;
+}
+
+select#Job {
+    margin-left: 54px;
+    width: 170px;
+    height: 35px;
+}
+
+form {
+    margin-left: 590px;
+}
+
+input[type="radio"] {
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 15px;
+}

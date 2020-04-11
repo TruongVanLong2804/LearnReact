@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài 2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		body{
+			background: #81DAF5;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<h>Survey Form</h>
+	</div>
+	<div id="content">
+		<p class="first">Let us know how we can improve freeCodeCamp</p>
+		<div class="text">
+			<p class="list">Name:</p>
+			<input type="text" class="khung" placeholder="Enter your name">
+		</div>
+		<div class="text">
+			<p class="list">Email:</p>
+			<input type="text" class="khung" placeholder="Enter your email">
+		</div>
+		<div class="text">
+			<p class="list">Age:</p>
+			<input type="number" class="khung" placeholder="Age">
+		</div>
+		<div class="clr"></div>
+		<div class="text1">
+			<p class="list1">Which option best describes your current role?</p>
+			<select id="Job">
+				<optgroup label="Job">
+					<option>Student</option>
+					<option>Worker</option>
+					<option>Teacher</option>
+					<option>Other</option>
+				</optgroup>
+			</select>
+		</div>
+		<div class="text1">
+			<p class="list1">How likely is that you would recommend freeCodeCamp to a friend?</p>
+			<form>
+			<input type="radio" name="defini">
+			<label for="defini">Definitely</label><br>
+			<input type="radio" name="maybe">
+			<label for="maybe">Maybe</label><br>
+			<input type="radio" name="notsure">
+			<label for="notsure">Not sure</label><br>
+			</form>
+		</div>
+		<div class="text1">
+			<p class="list1">What do you like most in FCC:</p>
+			<select id="Job">
+				<optgroup>
+					<option>Select an option</option>
+				</optgroup>
+			</select>
+		</div>
+		<div class="text1">
+			<p class="list1">Things that should be improved in the future (Check all that apply):</p>
+			<form>
+			<input type="checkbox" name="frontend">
+			<label for="frontend">Front-end Projects</label><br>
+			<input type="checkbox" name="backend">
+			<label for="backend">Back-end Projects</label><br>
+			<input type="checkbox" name="data">
+			<label for="data">Data Visualization</label><br>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
