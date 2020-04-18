@@ -84,7 +84,6 @@ p.list {
     margin-left: 500px;
     margin-top: 20px;
 }
-}
 .clr{
 
 clear:both;
@@ -109,7 +108,7 @@ p.list1 {
     text-align: end;
 }
 
-select#Job {
+#Job {
     margin-left: 54px;
     width: 170px;
     height: 35px;
