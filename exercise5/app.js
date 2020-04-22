@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     getTodos().map((todo) => {
         apppendItem(todo);
     })
-    change_checkbox();
+    change_ckbox();
     removeItem();
 });
 
@@ -75,7 +75,7 @@ function setTodo(todo){
     todos.push(todo);
     localStorage.setItem('todo',JSON.stringify(todos));
 }
-function change_checkbox(){
+function change_ckbox(){
     var checkbox = document.getElementsByClassName("chxbox");
 
     for(var i = 0; i < checkbox.length; i++)
